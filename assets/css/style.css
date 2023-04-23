@@ -14,13 +14,12 @@ Primary use:    pxdraft
 7. About
 8. Services
 9. Portfolio
-10. Testimonial
-11. Contact Us
+10. Contact Us
 
 ----------------------------------------------------------------*/
 @import url(../vendor/bootstrap/css/bootstrap.min.css);
 @import url(../vendor/bootstrap/icons/bootstrap-icons.css);
-@import url(../vendor/owl-;carousel/css/owl.carousel.min.css)
+@import url(../vendor/owl-;carousel/css/owl.carousel.min.css);
 @import url(../vendor/magnific/magnific-popup.css);
 @import url(../vendor/font-awesome/css/all.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
@@ -531,33 +530,23 @@ main {
       font-size: 32px; } }
   .about-section h1 .ti-container {
     color: #FEC448; }
-@media only screen and (min-width: 320px) and (max-width: 520px){
-.about-section .row{
-  display: contents;
-  max-width: 100%;
+@media (max-width: 520px){
+  .about-section .row{
+    display: block;
+  }
+.about-section img{
+  min-width: 100%;
 }
-.about-section{
-  width: 100%;
-}
-/* .about-section img{
-  position: absolute;
-} */
-.about-section .pe-lg-10{
-  max-width: 550px;
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+.about-section p{
   position: relative;
-  /* top: 200px; */
-}
-.about-section .col-6{
-  max-width: 100%;
+  min-width: 100%;
 }
 }
 .about-section p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.88);
-  max-width: 450px; }
+  /* max-width: 450px;  */
+}
 
 .about-section .btn-bar {
   padding: 5px 0 20px; }
@@ -988,7 +977,20 @@ text-transform: capitalize; } */
   @media (max-width: 991px) {
     .contact-info h3 {
       font-size: 30px; } }
-
+@media (max-width: 520px)
+{
+  .contactus-section .row{
+    display: block;
+    /* align-items: center; */
+  }
+  .contactus-section .contact-heading{
+    width: 90%;
+    margin: auto;
+  }
+  .contactus-section .contact-social{
+    padding-left: 20px;
+  }
+}
 .contact-info ul {
   margin: 0;
   padding: 0;
@@ -1045,10 +1047,6 @@ text-transform: capitalize; } */
   .contact-info li a {
     color: #fff; }
 
-.title{
-  
-
-}
 .contact-social {
   padding-bottom: 40px;
   padding-top: 5px;
