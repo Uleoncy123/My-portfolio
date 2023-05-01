@@ -30,13 +30,17 @@ Primary use:    pxdraft
   right: 0;
   z-index: 11;
   background: transparent; }
+  .fixed-header .main-header .navbar-nav > li > .nav-link {
+    color: #121519; } 
   .fixed-header .main-header {
     background: #fff;
     box-shadow: 0 0.125rem 0.25rem rgba(18, 21, 25, 0.075); }
   .main-header .logo-dark {
     display: none; }
     .fixed-header .main-header .logo-dark {
-      display: block; }
+      display: block;
+      color:#121519; 
+    }
   .fixed-header .main-header .logo-light {
     display: none; }
   .main-header .navbar {
@@ -761,7 +765,7 @@ text-transform: capitalize; } */
   width: 100%;
   height: 100%; }
   .services-left .section-heading {
-    padding-bottom: 30px; }
+    padding-top: 30px; }
 
 /* Work Experiance & Skill
 ---------------------*/
@@ -945,7 +949,7 @@ text-transform: capitalize; } */
     bottom: -50%;
     left: 0;
     right: 0;
-    top: 11%;
+    top: 5%;
     background: #F5F6F9;
     pointer-events: none;
     border-radius: 20px;
@@ -990,7 +994,7 @@ text-transform: capitalize; } */
   }
   .contactus-section .contact-social{
     padding-left: 20px;
-    
+    padding-bottom: 0%; 
   }
 }
 /* .contactus-section .row{
@@ -1001,7 +1005,9 @@ text-transform: capitalize; } */
   margin: 0;
   padding: 0;
   list-style: none; }
-
+.Download{
+  margin-left: 20px;
+}
 .contact-info li {
   display: -ms-flexbox;
   display: flex;
